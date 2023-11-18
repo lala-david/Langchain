@@ -2,10 +2,9 @@ import subprocess
 import gradio as gr
 from data_loader import load_and_process_pdf_data
 from chat_interface import setup_chatbot
-from dotenv import load_dotenv
-import os   
+from dotenv import load_dotenv 
 from urllib.parse import urlparse
-
+import os
 
 load_dotenv()
 
